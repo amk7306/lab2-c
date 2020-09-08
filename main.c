@@ -19,13 +19,13 @@ int main(void) {
   if(70<grade && grade<=77){
     printf("Your letter grade for CMPSC 131 is C.\n");
   }
-  if(77<grade && grade<=80){
+  if(77<grade && grade<80){
     printf("Your letter grade for CMPSC 131 is C+.\n");
   }
-  if(80<grade && grade<=83){
+  if(80<=grade && grade<83){
     printf("Your letter grade for CMPSC 131 is B-.\n");
   }
-  if(83<grade && grade<=87){
+  if(83<=grade && grade<=87){
     printf("Your letter grade for CMPSC 131 is B.\n");
   }
   if(87<grade && grade<90){
