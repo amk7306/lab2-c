@@ -34,10 +34,10 @@ int main(void) {
   if(90<grade && grade<93){
     printf("Your letter grade for CMPSC 131 is A-.");
   }
-  if(93<=grade && grade<=99){
+  if(93<=grade && grade<100){
     printf("Your letter grade for CMPSC 131 is A");
   }
-  if(99<grade && grade<=100){
+  if(grade==100){
     printf("Your letter grade for CMPSC 131 is A+");
   }
   return 0;
