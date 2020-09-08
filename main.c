@@ -13,7 +13,7 @@ int main(void) {
   if(grade<60){
     printf("Your letter grade for CMPSC 131 is F.\n");
   }
-  if(60<grade && grade<=70){
+  if(60<=grade && grade<=70){
     printf("Your letter grade for CMPSC 131 is D.\n");
   }
   if(70<grade && grade<=77){
